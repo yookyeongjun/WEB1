@@ -19,7 +19,8 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
-    <title>Index</title>
+    
+    <title>login</title>
 </head>
 <body>
     <div id='wrap'>
@@ -60,28 +61,49 @@
                         </ul>
                 </div>
             </div>
-            <div id="object">
-                <div><h2>object_1</h2><hr>
-                    <div class="contents">
-
+        <div id="login-form">
+            <main class="login-form">
+                <div class="cotainer">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="card">
+                                <div class="card-header text-md-center">로그인</div>
+                            <div class="card-body">
+                                <form action="" method="">
+                                    <div class="form-group row">
+                                        <label for="id" class="col-md-3 col-form-label text-md-right">ID</label>
+                                        <div class="col-md-6">
+                                            <input type="text" id="id" class="form-control" name="id" required autofocus>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="password" class="col-md-3 col-form-label text-md-right">비밀번호</label>
+                                        <div class="col-md-6">
+                                            <input type="password" id="password" class="form-control" name="password" required>
+                                        </div>
+                                    </div>
+                                    <div class="text-md-center">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" name="remember"> 로그인 유지
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="text-md-center">
+                                        <button type="submit" class="btn btn-primary">
+                                            로그인
+                                        </button>
+                                        <a href="#" class="btn btn-link">
+                                            비밀번호 찾기
+                                        </a>
+                                    </div>
+                                </form>
+                            </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div><h2>object_2</h2><hr>
-                    <div class="contents">
-                        
-                    </div>
-                </div>
-                <div><h2>object_3</h2><hr>
-                    <div class="contents">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/v2SAmDJ_SMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div><h2>object_4</h2><hr>
-                    <div class="contents">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/v2SAmDJ_SMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
+            </main>
         </div>
         <footer>
             <nav>

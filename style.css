@@ -1,37 +1,123 @@
-body {
-    margin: 0px;
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+body{
+    margin: 0;
+    font-size: .9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    text-align: left;
+    background-color: #f5f8fa;
 }
-a {
+.navbar-laravel
+{
+    border-bottom:1px solid #c4c4c4;
+}
+.navbar-brand , .nav-link, .my-form, .login-form, #grid .menu, #grid
+{
+    font-family: Raleway, sans-serif;
+}
+.my-form
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.my-form .row
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+.menu a{
+    color:#212529;
     text-decoration: none;
 }
-h1 {
-    font-size:45px;
-    text-align:center;
-    border-bottom:1px solid gray;
-    margin:0px;
-    padding:20px;
+.login-form, .join-form
+{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    vertical-align: middle;
 }
-#grid ol {
-    border-right: 1px solid gray;
-    width:100px;
-    margin:0px;
-    padding:20px;
+.login-form .row, .join-form .row
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+#grid .menu {
+    border-right:1px solid #c4c4c4;
+    width:150px;
+    margin-top:10px;
+    margin-left:10px;
+    padding-right:20px;
 }
 #grid {
     display: grid;
     grid-template-columns: 150px 1fr;
+    height:700px;
 }
-#article {
-    padding-left: 25px;
+#object {
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 300px 300px;
+    gap: 30px;
+    padding:10px;
+    margin-left: 20px;
 }
-@media(max-width :800px){
-        #grid {
-            display: block;
-        }
-        h1 {
-            border-bottom : none ;
-        }
-        #grid ol {
-            border-right : none ;
-        }
+.contents {
+    text-align: center;
 }
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#wrap {
+    min-height: 100vh;
+    position: relative;
+    width: 100%; 
+}
+.row {
+    font-size : 100%;
+}
+@media(max-width :768px) {
+    footer {
+        visibility: hidden;
+    }
+    #object {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    .checkbox {
+        text-align: center;
+    }
+    .text-md-center{
+        text-align: center;
+    }
+}
+footer {
+    width: 100%;
+    height: 90px;
+    bottom: 0px;
+    position: absolute;
+    border-top: 1px solid #c4c4c4;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    color: #808080;
+    font-size: 11px;
+}
+footer a {
+    display: inline-block;
+    margin: 0 20px 10px 20px;
+    color: #808080; font-size: 11px;
+}
+footer a:visited {
+    color: #808080;
+}
+footer p {
+    margin-top: 0; margin-bottom: 0;   
+}
+footer p span {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
