@@ -61,7 +61,24 @@
                                     <form action="" method="">
                                         <div class="mb-1">
                                             <label for="exampleFormControlInput1" class="form-label">Email address 
-                                                <input type="button" onclick="handleOnClick()" class="btn btn-primary btn-sm" value="중복확인"/>
+                                                <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    중복확인
+                                                </button>
+                                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                사용할 수 있는 주소입니다.
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">확인</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>    
                                             </label>
                                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required autofocus>
                                         </div>
