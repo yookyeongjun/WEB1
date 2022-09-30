@@ -1,0 +1,10 @@
+@media(max-width :1320px) {
+    footer {
+        visibility: hidden;
+    }
+    #object {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+}

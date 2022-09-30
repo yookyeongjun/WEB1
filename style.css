@@ -29,11 +29,11 @@ body{
     color:#212529;
     text-decoration: none;
 }
-.login-form, .join-form
+#login-form, #join-form
 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    vertical-align: middle;
+
 }
 #login-form .row, #join-form .row
 {
@@ -58,8 +58,8 @@ body{
 #object {
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 300px 300px;
-    gap: 30px;
+    grid-template-rows: 350px 350px;
+    gap: 10px;
     padding:10px;
     margin-left: 20px;
 }
@@ -77,22 +77,6 @@ html, body {
 }
 .row {
     font-size : 100%;
-}
-@media(max-width :820px) {
-    footer {
-        visibility: hidden;
-    }
-    #object {
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: auto;
-    }
-    .checkbox {
-        text-align: center;
-    }
-    .text-md-center{
-        text-align: center;
-    }
 }
 footer {
     width: 100%;
@@ -120,6 +104,8 @@ footer p span {
     display: inline-block;
     margin-left: 20px;
 }
-
+#login-form .col-md-8, #join-form .col-md-8 {
+    max-width: 500px;
+}
 
 
