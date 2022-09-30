@@ -13,6 +13,7 @@ body{
 #navbar-example2
 {
     border-bottom:1px solid #c4c4c4;
+    background-color: #e3f2fd;
     color: #212529;
 }
 .my-form
@@ -33,7 +34,6 @@ body{
 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-
 }
 #login-form .row, #join-form .row
 {
@@ -107,5 +107,7 @@ footer p span {
 #login-form .col-md-8, #join-form .col-md-8 {
     max-width: 500px;
 }
-
+.list-unstyled,.smallmenu {
+    margin-left: 20px;
+}
 
