@@ -12,8 +12,7 @@ body{
 }
 #navbar-example2
 {
-    border-bottom:1px solid #c4c4c4;
-    background-color: #e3f2fd;
+    background-color: #ececec;
     color: #212529;
 }
 .my-form
@@ -110,4 +109,5 @@ footer p span {
 .list-unstyled,.smallmenu {
     margin-left: 20px;
 }
+
 
