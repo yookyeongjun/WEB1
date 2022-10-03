@@ -109,5 +109,6 @@ footer p span {
 .list-unstyled,.smallmenu {
     margin-left: 20px;
 }
-
-
+.text-md-center a{
+    text-decoration: none;
+}
