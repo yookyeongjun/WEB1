@@ -113,6 +113,9 @@ footer p span {
 .text-md-center a{
     text-decoration: none;
 }
+#object h2 {
+    text-align: center;
+}
 @media(max-height:930px) {
     footer {
         visibility:hidden;
